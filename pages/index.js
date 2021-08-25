@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import styled from 'styled-components'
 
-const Title = styled.h1`
-	font-size: 50px;
+const Title = styled.div`
+	font-size: 20px;
 	color: ${({ theme }) => theme.colors.primary.dark};
 `
 
