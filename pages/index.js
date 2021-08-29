@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styled from 'styled-components'
-
 const Nav = styled.nav`
-	font-size: 20px;
+	font-size: 40px;
 	color: ${({ theme }) => theme.colors.primary.dark};
 `
 
@@ -13,8 +12,11 @@ export default function Home() {
 			<Head>
 				<title>Sign in </title>
 			</Head>
-			<Nav>hello</Nav>
-			<Nav>{/* <Link href=''></Link> */}</Nav>
+			<Nav>
+				<Link href='/login'>
+					<a>hello</a>
+				</Link>
+			</Nav>
 		</div>
 	)
 }
