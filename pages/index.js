@@ -6,6 +6,7 @@ const Nav = styled.nav`
 	color: ${({ theme }) => theme.colors.primary.dark};
 `
 
+
 export default function Home() {
 	return (
 		<div>
